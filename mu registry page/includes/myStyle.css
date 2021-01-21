@@ -1,0 +1,186 @@
+
+			* {
+				box-sizing: border-box;
+			}
+			
+			body {
+				font-family: Arial;
+				font-size: 14px;
+				background: #F2F2F2;
+				color: #504E4E;
+				width: 1000px;
+				border: 1px solid darkblue;
+			}
+			h1 {
+				margin: 0;
+				font-size: 30px; 
+				/* background-color: darkblue; */
+				background-image: linear-gradient(darkblue, blue);
+				color:white; 
+				text-align:center; 
+				padding: 20px;
+			}
+			
+			#container {
+				margin-left: 8px;
+
+				height: 600px;
+				overflow:scroll;
+				
+			}
+			
+			/* Styling tables */
+			
+			#tbl {
+  				font-family: Arial, Helvetica, sans-serif;
+  				border-collapse: collapse;
+  				width: 90%;
+			}
+
+			#tbl td, #tbl th {
+  				border: 1px solid #ddd;
+  				padding: 8px;
+			}
+
+			#tbl tr:nth-child(even){background-color: #e2e2e2;}
+
+			#tbl tr:hover {background-color: #c2d2d2}
+
+			#tbl th {
+  				padding-top: 12px;
+  				padding-bottom: 12px;
+  				text-align: left;
+  				background-color: #514E4E;
+  				color: white;
+			}
+			
+			/* Styling lists */
+			ol {
+				list-style-type:  upper-roman;
+			}
+			
+			ul {
+				list-style-type: square;
+
+			}
+			
+			ul.a {
+				list-style-type: circle;
+
+			}
+		
+			
+			/* style multi-column display in a row */
+			.row:after {
+				content: "";
+				display: table;
+				clear: both;
+			}
+			.column {
+				float: left;
+				padding: 10px;
+			}
+			
+			.column.left {
+				width: 50%;
+			}
+			
+			.column.right {
+				width: 50%;
+			}
+			
+
+			/* style navigation menu */
+						
+			ul.nav {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: darkblue;
+			}
+			
+			li.nav {
+				float: left;
+			}
+			
+			li.nav a {
+				display: block;
+				padding: 10px; 
+				color: white;
+			}
+			
+			li.nav a:hover {
+				color: hotpink;
+			}
+		
+			li.navWelcome {
+				float: left;
+				padding: 10px; 
+				padding-left: 50px; 
+				color: white;
+			}
+			
+			/* Style forms */
+			
+			fieldset {
+				border-radius: 10px;
+				width: 700px;
+			}
+			
+			legend {
+				/*color: #504E4E;*/
+				font-weight: bold;
+			}
+			
+			form {
+				border-radius: 10px;
+				/*background-color: #f2f2f2;*/
+				
+				color: #504E4E;
+				padding: 20px;
+			}
+			
+			
+			select, textarea, input[type=text],[type=email] ,[type=password] {
+				width: 50%;
+				padding: 8px 8px;
+				margin: 8px 0;
+				border: none;
+				border-radius: 6px;
+				background-color: white;
+			}
+			
+			select {
+				height: 30px;
+			}
+			input[type=submit] {
+				background-color: #504E4E;
+				border: 5px;
+				color: white;
+				padding: 8px;
+				width: 50%;
+				text-decoration: none;
+				margin: 4px 2px;
+				cursor: pointer;
+				border-radius: 6px;
+			}
+			
+			input[type=submit]:hover {
+				background-color: black;
+			} 
+			
+			.err {
+				color: red;
+				font-size: 13px;
+			}
+			
+			footer {
+				margin: 0px;
+				font-size: 15px;
+				text-align: center;
+				background-color: darkblue;
+				color: white;
+				padding: 10px;
+			}
+
